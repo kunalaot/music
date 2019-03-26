@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: Text("Music App"),
+        title: Text("Music Application"),
       ),
       body: new ListView.builder(
         itemCount: widget._songs == null ? 0 : widget._songs.length,
